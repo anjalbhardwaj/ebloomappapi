@@ -13,14 +13,14 @@
  		"mysql": {   
  			"client"			: "mysql",
  			
-			// "host"              : "159.69.58.67",
-			"host"				: "linuxzone120.grserver.gr",
-			// "user"              : "globalto184946_ebloom_user",
-			"user"              : "Ebloomappuser", 
+			"host"              : "159.69.58.67",
+			// "host"				: "linuxzone120.grserver.gr",
+			"user"              : "globalto184946_ebloom_user",
+			// "user"              : "Ebloomappuser", 
 			"password"			: "K3325zu*a!@",
  			"port" 				: 3306, 
-			// "database"          : "globalto184946_ebloom_db",
-			"database"			: "ebloom_app",
+			"database"          : "globalto184946_ebloom_db",
+			// "database"			: "ebloom_app",
  			"timezone"			: "utc",
  			"multipleStatements": true,
  			"charset"			: "utf8"
