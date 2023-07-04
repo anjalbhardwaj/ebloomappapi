@@ -1,0 +1,12 @@
+{
+    "type"                        : "service_account",
+    "project_id"                  : "knowex-c9c0f",
+    "private_key_id"              : "e2c715ff141736774298e62eefb355c19700e134",
+    "private_key"                 : "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCW+XJiAxbuLanF\nnZmX+i7/6BBJi1iiZA/w4hgeAX2qqITCeIHAOGS3Qhj2SAsbQ7BsKcl4khDIZgUj\nf3/bFwE6WNw/WntMPQzrsJGSiVJjfPTSVNb27pNCRaQel/YDTEBrgsm9ZzUmeMY1\n/mynSm+7MuiFRne9sHrJJGVSA9NLYWexK9IeONJgr1l9ccEaP97FVLxnXSq4OUFi\n9yrSMfvRY+M9K37jph+pDSsFjl+0CZqp62IPPdDIEL3QFxp93UrhcYnE8ie0g0AO\n4dggHq/L2SdiEuF/Qk0jTjaG7sTrIeQ4qoVOUCRotYYqUMAqlSukHKrsxZgsNA/8\niuP10W+rAgMBAAECggEACfNb+iDJAJ7K20cFahJnyZ8if65rA50DvfUw8L1Zaoeb\n5HNr3d75qGh3W7go3z2pYZ+pc0RxTbwHp6zOIQMVpiJYNebBTKeTc+9Z0OYzI3KH\nclt8JZ9Y3lvXstqCMPp0HoHqyQyF4MjCC6n+wFH0Jkr3L12TI9H/bcVz1iGBaizh\n6OJg/mRcA0Hg45QPWa5gwKKvPL6dm5TSV7BFyPLB76CiFmWT0KeV+Yr4ulvn71Yl\nX8HeYXd5lrj7U85umPlyJ5isMAtVEkbS2Y+6y9cBfir1DSgyTgYm2wIZwSrEiPZm\nxVNC5C0vJHonFAbdSLwx/mjodo5Dy4/s4CGDPqsaDQKBgQDMZ1VIz+yPbLhnyUIq\nIV1oTE3Fsba04qJ9Iggs0DGLN8EtT/aZs6CI5XkwPMnO0wr+nneCC9SkqeIqqUT8\nVMZIZ4RAWw4DXSwYNICDH7pvxu2IQ3ZxTp4BkWFD1EIMvcEYRwL13fTPDFF9b2Kl\nWGWkYqF6V+r18/8OC/1AQSVSfQKBgQC9FX0rlw5GWpchvdlryFUHMyf7g6sAvhCA\n9NQ8McwdXiDYiUYwO//csLwOnmoMlSEPcQzNl2CTUXFk91zlJuyRRoYWbpJvz2Pj\n8N3yjm9A/KBIBXAcBOBWwwe4gyvsFKr76A0wWZ+tkadMQNhlGu+gOvAos4LAN+1j\nXq0lk6P7RwKBgQCww4/SRtVZdvjF8BsC2hWwE4SSOUw6g19nfV26e1TNAytQpz0n\n0Fo86M1ztK4E6Scx6BKLaPW8bJmEsRtSZ3GNvc915AhrSlDOoeCdBHwzG8HgvA6a\nkBU+X93QTafM4vAwsYBS5V5HC20RX5jcSmSj0xO3/H3ZsubX2/Bnd67x9QKBgQCt\npf2FOb3PWMTxJOR2+s0zxoRSlRJHpUWM2MvM2ELHObnagv9lrsSEzf53Qn7MPWzW\nPJFwgjQcNzB3dEDo5f1eUbE1CqkLbCAlpwB+ENcVjKw6WFwkL0pEA+qkRjrhHf4F\nSJBMNhLSGTDWc7sH51voABismGdc1j/6AWnsV5HCYwKBgQCJTwlXlSvDb9rtXjPz\nYZb1HnY+eqpXjDp5cBCp2TQb0vp7Ps37mjkOO/39744wHnpKlwgUuTfH0Kqhmyt5\ni5QwCAwjuVW4v98a+WuCv1cJxYnJL1rN1+3FSCAucoX+Ydb6wbNJxHWXpIjtZFPE\nceezv5wWEvgip4xVmuJIr4wIkg==\n-----END PRIVATE KEY-----\n",
+    "client_email"                : "firebase-adminsdk-flqb3@knowex-c9c0f.iam.gserviceaccount.com",
+    "client_id"                   : "117248737491659408679",
+    "auth_uri"                    : "https://accounts.google.com/o/oauth2/auth",
+    "token_uri"                   : "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url" : "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url"        : "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-flqb3%40knowex-c9c0f.iam.gserviceaccount.com"
+}

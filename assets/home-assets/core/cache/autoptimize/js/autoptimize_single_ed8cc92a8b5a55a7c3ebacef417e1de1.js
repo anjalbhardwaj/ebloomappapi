@@ -1,0 +1,7 @@
+jQuery(function($){if($('#low_stock_enabled').is(':checked')){var parrent_ele=$('#low_stock_limit').parents('p');parrent_ele.show();}
+else{var parrent_ele=$('#low_stock_limit').parents('p');parrent_ele.hide();}
+if($('#out_of_stock_enabled').is(':checked')){var parrent_ele=$('#out_of_stock_limit').parents('p');parrent_ele.show();}
+else{var parrent_ele=$('#out_of_stock_limit').parents('p');parrent_ele.hide();}
+$('#low_stock_enabled').change(function(){if($(this).is(":checked")){var parrent_ele=$('#low_stock_limit').parents('p');parrent_ele.show('slow');}
+else{var parrent_ele=$('#low_stock_limit').parents('p');parrent_ele.hide('slow');}});$('#out_of_stock_enabled').change(function(){if($(this).is(":checked")){var parrent_ele=$('#out_of_stock_limit').parents('p');parrent_ele.show('slow');}
+else{var parrent_ele=$('#out_of_stock_limit').parents('p');parrent_ele.hide('slow');}});$('#product_info').on('click','.unsubscribe',function(e){var id=$(this).attr("id");var name=$(this).attr("name");var trnumber=$(this).attr('trnumber');$(this).toggleClass('loader').blur();var ajax_url=woocommerce_params.ajax_url;$.ajax({type:'POST',url:ajax_url,data:{action:'wcmp_customer_unsubscribe_product',product_id:id},success:function(data){$(this).removeClass('loader').blur();$('tr[trnumber="'+trnumber+'"]').remove();}});});});

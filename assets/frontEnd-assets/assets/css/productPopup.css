@@ -1,0 +1,199 @@
+.cc-modal {
+    position: relative;
+    max-width: 700px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5rem;
+    background-color: #f7f7f7;
+}
+.cc-modal-inner {
+    position: relative;
+    background: #f7f7f7;
+    overflow-y: auto;
+    border-radius: 0.5rem;
+}
+.cc-modal-dismiss {
+    position: sticky;
+    float: right;
+    right: 12px;
+    top: 12px;
+    cursor: pointer;
+    z-index: 9999;
+}
+.cc-modal-header {
+    background: #fff;
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.08);
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    padding: 1rem;
+}
+
+.cc-modal-header__name {
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.cc-modal-header-price-info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+.cc-modal-header__description {
+    font-size: 12px;
+}
+.cc-modal-body {
+    background: #f7f7f7;
+    padding: 1rem 1rem 6rem;
+    padding-bottom: 3rem;
+}
+.cc-modal-comment-title {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+}
+.cc-modal-comment-textarea {
+    outline: none;
+    display: block;
+    resize: none;
+    margin-top: 0.5rem;
+    border: none;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.04);
+}
+.cc-modal-footer {
+    background: #fff;
+    box-shadow: 0 -4px 12px 0 rgba(0, 0, 0, 0.05);
+    border-bottom-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    width: 100%;
+    z-index: 99;
+    padding: 1rem;
+}
+.cc-modal-footer-control {
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    align-items: center;
+    position: relative;
+}
+.cc-controls-quantity {
+    margin-left: 24px;
+    position: absolute;
+    top: 0;
+}
+.cc-modal-footer-control-submit {
+    margin-left: auto;
+    float: right;
+}
+.cc-controls-quantity-decrease {
+    color: #333;
+    font-weight: 700;
+    text-align: center;
+    border: 1px solid #dfdfdf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    font-size: 20px;
+    text-decoration: none !important;
+    background: #fff;
+    cursor: pointer;
+    outline: none !important;
+    padding: 8px;
+}
+.cc-controls-quantity-input {
+    text-align: center;
+    border: none;
+    width: 32px;
+    height: 20px;
+    color: #333;
+    margin: 0 0.25rem;
+}
+.cc-controls-quantity-increase {
+    color: #333;
+    font-weight: 700;
+    text-align: center;
+    border: 1px solid #dfdfdf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    font-size: 20px;
+    text-decoration: none !important;
+    background: #fff;
+    cursor: pointer;
+    outline: none !important;
+    padding: 8px;
+}
+.cc-modal-footer-controls-submit__button {
+    width: 191px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cc-modal-footer-controls-submit__button:not(:disabled):not(.disabled),
+.component-joker-expired-footer button:not(:disabled):not(.disabled),
+.modal-addressbox-confirmation .button-map-submit:not(:disabled):not(.disabled),
+.order-steps .button-primary:not(:disabled):not(.disabled),
+.react-autosuggest__suggestion:last-child span:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+.btn-primary,
+.button-primary,
+.cc-modal-alert-button-inner,
+.cc-modal-footer-controls-submit__button,
+.component-joker-expired-footer button,
+.modal-addressbox-confirmation .button-map-submit,
+.order-steps .button-primary,
+.order-steps .cc-modal-alert-button-inner,
+.order-steps .cc-modal-footer-controls-submit__button {
+    color: #212529;
+    background-color: #ffc200;
+    border-color: #ffc200;
+}
+.btn,
+.button,
+.cc-modal-alert-button-inner,
+.cc-modal-footer-controls-submit__button,
+.component-joker-expired-footer button,
+.modal-addressbox-confirmation .button-map-submit,
+.order-steps .button-primary,
+.order-steps .cc-modal-alert-button-inner,
+.order-steps .cc-modal-footer-controls-submit__button,
+.react-autosuggest__suggestion:last-child span {
+    display: inline-block;
+    font-weight: 700;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    padding: 0.57rem 1.5rem;
+    font-size: 0.875rem;
+    line-height: 1.45;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+        border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+html {
+    scroll-behavior: smooth;
+}
