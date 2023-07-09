@@ -1,7 +1,7 @@
 const nodemailer = require("nodemailer");
 const common = require('../models/common');
 
-exports.sendMails = async (res,sendersEmails) => {
+exports.sendMails = async (res, sendersEmails) => {
     // const emailsArr = req.body.emails;
     console.log("sendersEmailssendersEmails");
     console.log(sendersEmails);
@@ -22,7 +22,7 @@ exports.sendMails = async (res,sendersEmails) => {
         from: "sales@ebloom.gr",
         to: sendersEmails,
         subject: "Hello from Node.js",
-        text: JSON.stringify(res),
+        html: res,
     };
     // Send the email
     transporter.sendMail(mailOptions, (error, info) => {
@@ -54,7 +54,7 @@ exports.sendMails = async (res,sendersEmails) => {
 // smtpProtocol.sendMail(mailoption, function(err, response){
 //     if(err) {
 //         console.log(err);
-//     } 
+//     }
 //     console.log('Message Sent' + response.message);
 //     smtpProtocol.close();
 // });
